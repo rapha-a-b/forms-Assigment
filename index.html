@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <style>
+      body {
+        text-align: center;
+      }
+      table {
+        margin: auto;
+      }
+      img {
+        height: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Your Details</h1>
+    <form action="https://formspree.io/f/mjvzqnyw" method="post">
+      <label for="user-n">User name:</label>
+      <br />
+      <input type="text" name="user-Name" id="user-n" required />
+      <br />
+      <br />
+      <label for="password">Password:</label>
+      <br />
+      <input type="password" name="p-word" id="p-word" required />
+      <br />
+      <br />
+      <label for="mail">Email address:</label>
+      <br />
+      <input type="email" id="mail" />
+      <br /><br />
+      <h2>Pick an avatar:</h2>
+      <table>
+        <tr>
+          <td>
+            <input
+              type="radio"
+              id="avatar1"
+              name="avatar"
+              value="avatar1"
+              required
+            />
+            <br />
+            <label for="avatar1"><img src="img/avatar1.png" /></label>
+          </td>
+          <td>
+            <input
+              type="radio"
+              id="avatar2"
+              name="avatar"
+              value="avatar2"
+              required
+            />
+            <br />
+            <label for="avatar1"><img src="img/avatar2.png" /></label>
+          </td>
+          <td>
+            <input
+              type="radio"
+              id="avatar3"
+              name="avatar"
+              value="avatar3"
+              required
+            />
+            <br />
+            <label for="avatar1"><img src="img/avatar3.png" /></label>
+          </td>
+        </tr>
+      </table>
+      <br />
+      <br />
+
+      <h2>Pick Your Hobbies:</h2>
+      <input
+        type="checkbox"
+        id="programming"
+        name="hobbies"
+        value="programming"
+      />
+      <label for="programming">Programming </label>
+      <input type="checkbox" id="writing" name="hobbies" value="writing" />
+      <label for="writing">Writing </label>
+      <input
+        type="checkbox"
+        id="photography
+        "
+        name="hobbies"
+        value="photography
+        "
+      />
+      <label for="sports">Photography </label>
+      <input type="checkbox" id="art" name="hobbies" value="art" />
+      <label for="art">Art </label>
+      <input type="checkbox" id="travel" name="hobbies" value="travel" />
+      <label for="travel">Travel </label>
+
+      <br />
+      <br />
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
